@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,700&family=Oswald:wght@500&family=Poppins:wght@500;900&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Finlandica', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif
+}
+.first-part{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 120px;
+    justify-content:space-evenly;
+
+}
+.header{
+ color: white;
+ margin-top: 60px;
+ margin-left: 100px;
+ justify-content: space-evenly;
+}
+.font{
+    width: 700px;
+    font-size: 40px;
+}
+.font2{
+    width: 700px;
+    font-size: 25px;
+}
+.span1{
+    color: red;
+}
+.btn{
+    background-color: rgb(206, 61, 61);
+    padding: 10px;
+    border-radius: 6px;
+
+}
+.img{
+    margin-right: 80px;
+}
+.second-part-btn{
+    grid-template-columns: repeat(1, 1fr);
+}
+.font3{
+    margin: 20px;
+    border: 6px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 10px;
+}
+.match{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    width: 15px;
+    margin: 50px;
+}
+.match .up-all{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    width: 700px;
+}
+.font4{
+    background-color: green;
+    margin: 20px;
+    border: 6px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.font-a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 700px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.section2-right img{
+width: 100px;
+}
+.time img{
+    display: flex;
+    justify-content: space-around;
+    width: 15px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
